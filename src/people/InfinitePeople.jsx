@@ -27,7 +27,7 @@ export function InfinitePeople() {
   );
 
   if (isLoading) return <div className="loading">Loading...</div>;
-  if (isError) return <div className="error">'Error!' {error.toString()}</div>;
+  if (isError) return <div className="error">Error! {error.toString()}</div>;
 
   // TODO: get data for InfiniteScroll via React Query
   return (
